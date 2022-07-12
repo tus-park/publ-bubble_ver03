@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+ <meta name="apple-mobile-web-app-capable" content="yes">
+
+ <title>교보교육재단</title>
+ <link rel="apple-touch-icon-precomposed" href="app_icon.png" />
+ <link rel="apple-touch-startup-image" href="startup.png"/>
+ <link href="css/common.css" rel="stylesheet" type="text/css">
+ <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/jquery.mmenu.css" rel="stylesheet" type="text/css">
+ <script src="js/jquery-1.8.3.min.js"></script>
+ <script src="js/prefixfree.min.js"></script>
+ <script src="js/jquery.mmenu.js"></script>
+
+ <script language="javascript" src="js/move.js" type="text/javascript"></script>
+ <script src="js/notice.js"></script>
+ <script type="text/javascript" src="js/jquery.event.drag-1.5.min.js"></script>
+ <script src="js/jquery.touchSlider.js"></script>
+ <script type="text/javascript">
+ $(document).ready(function() {
+ 	$("#touchSlider6").touchSlider({
+ 		flexible : true,
+ 		view:2,
+ 		initComplete : function (e) {
+ 			$("#touchSlider6_paging").html("");
+ 			var num = 1;
+ 			$("#touchSlider6 ul li").each(function (i, el) {
+ 				if((i+1) % e._view == 0) {
+ 					$("#touchSlider6_paging").append('<button type="button" class="btn_page">page' + (num++) + '</button>');
+ 				}
+ 			});
+ 			$("#touchSlider6_paging .btn_page").bind("click", function (e) {
+ 				var i = $(this).index();
+ 				$("#touchSlider6").get(0).go_page(i);
+ 			});
+ 		},
+ 		counter : function (e) {
+ 			$("#touchSlider6_paging .btn_page").removeClass("on").eq(e.current-1).addClass("on");
+ 		}
+ 	});
+ });
+ </script>
+ <script type="text/javascript">
+		  $(function(){
+		    $('nav#menu').mmenu();
+		  });
+		</script>
+ <script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1);
+   }, false);
+  }
+  catch(e) {}
+  // ]]>
+ </script>
+
+ <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="wrap">
+  	<header>
+  		<h1><a href="index.html" class="main_logo">로고</a></h1>
+  		<a href="#menu" id="sideLeft_menu">메뉴</a>
+			<div id="side_Nav">
+                  <nav id="menu">
+                    <!-- 네비게이션 부분 코딩 -->
+                    <ul>
+                    	<div class="search">
+	                    <input type="text" id="searchbox" name="searchbox" />
+	                    <input type="button" id="search_btn" name="search_btn" value="검색"/>
+	                    </div>
+                    	<li class="sideicon1"><a href="#" class="mainmenu">재단소개</a></li>
+                    	<li class="sideicon2"><a href="#" class="mainmenu">공지사항</a></li>
+                    	<li class="sideicon3"><a href="#" class="mainmenu">뉴스/활동소식</a></li>
+                    	<li class="sideicon4">
+                    		<a href="#" class="mainmenu">사업소개</a>
+                    		<dl class="sideicon4_sub">
+                    		<dd><a href="#" class="submenu">장학사업</a></dd>
+                    		<dd><a href="#" class="submenu">교육사업</a></dd>
+                    		<dd><a href="#" class="submenu">시상</a></dd>
+                    		</dl>
+                    	</li>
+                    	<li class="sideicon5">
+                    		<a href="#" class="mainmenu">참여신청</a>
+                    		<dl>
+                    		<dd><a href="#" class="submenu">온라인신청</a></dd>
+                    		<dd><a href="#" class="submenu">뉴스래터신청</a></dd>
+                    		<dd><a href="#" class="submenu">온라인문의</a></dd>
+                    		</dl>
+                    	</li>
+
+                    </ul>
+                  </nav>
+                </div>
+  	</header>
+  	<article>
+
+
+  	</article>
+  	<div class="topbtn">
+       <a href="#" id="toTop">
+         <span id="toTopHover"><img src="images/top.jpg" alt="상단으로이동" /></span></a>
+    </div>	
+  	<footer>
+      <p>개인정보처리방침</p>
+      <p>이메일무단수집거부</p>
+      <p><a href="#" class="footlink">찾아오시는 길</a> | <a href="#" class="footlink">PC 버전</a> | <a href="#" class="footlink">사이트 맵</a></p>
+      <p class="copy">Copyright ⓒ 2014 KYOBO Foundation for Education.
+         All Rights Reserved.</p>
+  	</footer>
+  </div>
+</body>
+</html>

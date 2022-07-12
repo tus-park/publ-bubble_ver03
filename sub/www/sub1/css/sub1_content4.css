@@ -1,0 +1,47 @@
+/* CSS Document */
+
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub1chart_hover.png)}
+/*content*/
+.titleArea h2{background:url(../images/content4/chart.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:28px; margin:60px 0 0 20px}
+.titleArea{background:url(../common/images/sub1_titleback.jpg) no-repeat; height:115px;}
+
+
+#content{width: 775px;margin: 0 0 0 25px; float: left;margin-top:20px;}
+.contentArea{overflow: hidden; margin: 40px 0 60px;font-family: '맑은 고딕'}
+
+/* chart */
+/* chart 공통 */
+.contentArea .chart{overflow: hidden;}
+
+.contentArea .chart h4{text-align: center;margin: 55px auto 0 auto;font-size: 24px; font-weight: bold; color:#fff;}
+.contentArea .chart .ch_in{position: relative; float:left;width: 387px;}
+.contentArea .chart .ch_in h5{text-align: center;font-size: 18px;font-weight: bold;color:#fff; width:70px;}
+.contentArea .chart .ch_in ul{overflow: hidden;margin-top: 70px;}
+.contentArea .chart .ch_in li{float: left; width:160px;margin: 10px 5px}
+.contentArea .chart dt{padding:10px;text-align: center; font-size: 18px}
+.contentArea .chart dd{padding:10px;text-align: center; font-size: 14px}
+
+/* chart 개별 */
+.contentArea .chart .ch1{overflow: hidden; position: relative;background: url(../images/content4/chart_bg.png)no-repeat top center}
+.contentArea .chart .ch2{overflow: hidden; position: relative;background: url(../images/content4/chart_bg02.png)no-repeat top center;
+margin-top: 60px}
+.contentArea .chart .ch1 .lfh{position: absolute; right:36px;top:10px}
+.contentArea .chart .ch1 .rth{position: absolute; left:36px;top:0}
+.contentArea .chart .ch2 .lfh{position: absolute; right:36px;top:15px}
+.contentArea .chart .ch2 .rth{position: absolute; left:36px;top:15px}
+.contentArea .chart .offi{position: absolute; right:150px;top:0px; width: 150px;}
+
+.contentArea .chart .ullf{padding: 0 30px 0 15px}
+.contentArea .chart .ulrt{padding: 0 15px 0 30px;border-left: 1px dotted #ccc;}
+.contentArea .chart .ch1 dt{background: url('../images/content4/ch1_libg.png')no-repeat center; height: 20px;color:#a864a8;font-weight: bold;}
+.contentArea .chart .ch1 dd{color:#a864a8;font-weight: bold;}
+.contentArea .chart .ch2 dt{color:#00746b;font-weight: bold; padding: 0;}
+.contentArea .chart .ch2 dd{background: url('../images/content4/ch2_libg02.png')no-repeat center;color:#fff;font-weight: bold;
+ padding: 0; height:25px;margin-top: 10px}
+.contentArea .chart .ch2 .offi dt{color:#0072bc;font-weight: bold; padding: 0;}
+.contentArea .chart .ch2 .offi dd{background: url('../images/content4/ch2_libg01.png')no-repeat center;
+color:#fff;font-weight: bold; padding: 0; height:25px;margin-top: 10px}

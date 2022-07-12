@@ -1,0 +1,33 @@
+/* CSS Document */
+
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub2encourage_hover.png)}
+/*content*/
+.titleArea h2{background:url(../images/content1/encourage.jpg) no-repeat; text-indent:-99999px; overflow:hidden;
+	height:29px; margin:60px 0 0 15px}
+.titleArea{background:url(../common/images/sub2_titleback.jpg) no-repeat; height:115px;}
+
+
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+.contentArea{margin-top:40px;padding:15px;}
+
+.contentArea .dasominfo{width:745px;height:300px;background: url(../images/content1/s2_1_h4bg.png);overflow: hidden}
+.contentArea h3{margin:30px 30px 20px 25px;font-size: 30px; font-weight: bold;color:#fff;}
+.contentArea h3 span{display: block;margin-left: 2px;font-size: 20px;font-weight: bold; color:#acd373;}
+.contentArea .dasominfo p{line-height:1.5em;width: 415px;margin-left:25px;padding-top: 25px;font-weight: bold; color:#fff;
+background: url(../images/content1/line.png) no-repeat}
+.contentArea li ul li span{color:#336699}
+h4{font-size: 16px; font-weight: bold; color:#32b332;margin-bottom: 15px;}
+
+.contentArea .toplist{padding:0 15px; margin: 40px 0 30px 0}
+.contentArea .toplist li ul{padding-left:25px;list-style: decimal;margin-bottom: 30px}
+.contentArea .toplist li ul li{margin-bottom: 15px;}
+.contentArea .toplist p{margin-bottom: 15px;padding-left:10px}
+
+.contentArea .bottomlist{overflow:hidden; padding: 0 15px;}
+.contentArea .bottomlist .bli_left{float:left; width:357px;}
+.contentArea .bottomlist li ul{margin-bottom:30px;}
+.contentArea .bottomlist li ul li{margin-bottom:15px;padding-left:10px}
+.contentArea .bottomlist .bli_right{float:left;width:358px; padding:}

@@ -1,0 +1,82 @@
+/* CSS Document */
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub5_archive_hover.png)}
+/*content*/
+/* titleArea start */
+.titleArea h2{background:url(../images/content2/archive.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:30px; margin-top:60px; margin-left: 25px;}
+.titleArea{background:url(../common/images/sub5_titleback.jpg) no-repeat; height:115px;}
+/* titleArea end */
+
+/* content start */
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+.contentArea{margin-top:40px;padding:15px; overflow: hidden}
+
+/* tabs start */
+.tabs {position:relative;overflow: hidden}
+.tabs a.tab {display:block;width:130px; height:32px;
+        overflow:hidden; position:absolute;text-indent: -99999px}
+
+.tabs a.tab1{background:url(../images/content2/tab1on.png) no-repeat;left:180px; top:0}
+.tabs a.tab2{background:url(../images/content2/tab2.png) no-repeat;left:310px; top:0}
+.tabs a.tab3{background:url(../images/content2/tab3.png) no-repeat;left:440px; top:0}
+
+.tabs .contlist {display:none;margin-top:30px; padding:50px 0 0;}
+/* tabs start end*/
+/* table start */
+table{width:100%;border-collapse:collapse}
+caption{position:absolute; left:-1000%; top:0; width:1px;height:1px; overflow:hidden}
+a{color:#333; text-decoration:none}
+
+.notice{overflow:hidden ;width:666; clear:both; position:relative; color:#666; margin:0 auto}
+.notice table{width:100%; font-family:Verdana, Geneva, sans-serif;font-size:12px; line-height:2em;color:#666; }
+.notice table thead th{ border-right:1px solid #fff}
+.notice table thead tr{border-bottom:1px solid #ccc;}
+.notice table tr{border-bottom:1px dotted #ccc}
+.notice table tr.no_line{border-bottom:0}
+.notice table .form_th{text-align:right; padding-right:10px}
+.notice table th, table tr, table td{padding:5px 5px}
+.notice table tr{text-align:center;vertical-align:inherit; display:table-row}
+.notice table th, table td{display:table-cell; vertical-align:inherit; text-align:center}
+.notice table .td_left{text-align:left; padding-left:30px}
+.notice table .btn{width:44px; height:17px;text-indent:-999px; overflow:hidden;background:url(../images/content1/search_btn.jpg);border:0}
+.notice table tbody .notice_tit{color:#3264c8; }
+.notice table tbody .event_tit{color:#32b432; }
+.notice table tbody .notArea{background:#eee}
+.notice table tbody a:hover{text-decoration: underline; color:#666}
+.notice table tbody .dwfile{background: url(../../images/diskicon.png)no-repeat;width: 16px; height: 16px;
+border: none; text-indent: -9999px; overflow: hidden;cursor:pointer}
+.notice table tbody .dwpdf{background: url(../../images/pdficon.png)no-repeat;width: 16px; height: 16px;
+border: none; text-indent: -9999px; overflow: hidden;cursor:pointer}
+.form_tr{width:100%}
+/* table start end */
+/* publication */
+.publication li{padding: 5px 5px 5px 77px; height:90px; margin-bottom:15px;position:relative}
+.publication li h4{font-weight:bold; font-size:14px; margin:10px 0}
+.publication li h4 a:hover{color:#999}
+.data{color:#666; font-size: 11px; position:absolute; left:77px;bottom:5px;}
+
+/* publish IR */
+.publication .publish1{background:url(../images/content2/publishimg1.jpg) no-repeat;}
+.publication .publish2{background:url(../images/content2/publishimg2.jpg) no-repeat;}
+.publication .publish3{background:url(../images/content2/publishimg3.jpg) no-repeat;}
+.publication .publish4{background:url(../images/content2/publishimg4.jpg) no-repeat;}
+.publication .publish5{background:url(../images/content2/publishimg5.jpg) no-repeat;}
+.publication .publish6{background:url(../images/content2/publishimg6.jpg) no-repeat;}
+.publication .publish7{background:url(../images/content2/publishimg7.jpg) no-repeat;}
+.publication .publish8{background:url(../images/content2/publishimg8.jpg) no-repeat;}
+/* publish IR end */
+/* publication end*/
+
+
+/* tfoot - pagebtn start */
+.pagebtn {overflow:hidden; text-align:center; border-top:2px solid #666; border-bottom:2px solid #666; padding:5px 0;margin-bottom:15px}
+.pagebtn span a{padding:0 5px}
+.pagebtn span a:hover{color:#3264c8;}
+.pagebtn span .selectpage{color:#3264c8;}
+.pagebtn span .pagelist:hover{color:#999;}
+.listsearch{overflow:hidden;width:100%}
+.listsearch form{text-align:center; }
+.searchHidden{display:none;}
+/* tfoot - pagebtn end */

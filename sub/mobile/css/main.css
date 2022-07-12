@@ -1,0 +1,100 @@
+#wrap{overflow: hidden}
+header{height:65px; background:#3264c8; overflow: hidden}
+.main_logo{display: block;background: url(../images/Logo_640.png);width:200px; height:35px; text-indent:-9999px;
+overflow:hidden; margin: 15px auto;}
+#sideLeft_menu{display: block; background: url(../images/navibtn_640.png) no-repeat; width:65px; height:65px;
+text-indent:-9999px; overflow:hidden; position:absolute; top:0; left:0;}
+/*header end*/
+*{margin:0; padding:0;}
+a{text-decoration:none; color:#666}
+a:hover{color:#690}
+article{padding:0 3px;}
+/* visual */
+.visual{width: 100%; overflow: hidden}
+.visual .mainVisual{width:100%;float:left; position:relative; overflow:hidden}
+.visual .mainVisual .vgallery{width:100%;position:relative; left:0;top:0;overflow:hidden}
+.visual .mainVisual .vgallery ul li{list-style:none}
+.vgallery .link1, .vgallery .link2, .vgallery .link3{display:none}
+/* visual - button*/
+.dock{width:73px; position:absolute; right:0; bottom:5px;}
+.dock span.mbutton{ margin-right:15px; cursor:pointer;
+    display:block; float:left; width:9px; height:9px; background:url(../images/btn_320.png)}
+
+img{border:0; vertical-align:top;}
+/* visual end*/
+/*공지사항*/
+section{clear: both;border-bottom: 1px solid #ddd;margin-bottom: 15px;}
+section .notice_con{line-height:1.3em; position:relative;overflow:hidden;}
+section .notice_con h2{font-size:16px; text-align: center;font-weight:bold; color:#333;width:20%; height:20px;
+padding: 10px 5%; background: url(../images/notiarrow.png)no-repeat center right;float: left}
+section .notice_con .slide_box{width:60%; height:18px;margin:11px 5%;overflow:hidden; float: left; position:relative;}
+section .notice_con .slide_box .slide{position:absolute;left:0; top:0}
+section .notice_con .slide ul{font-size:14px;}
+section .notice_con .slide ul li{height:15px; overflow:hidden; text-overflow:clip; -o-text-overflow:clip; margin-bottom:5px;}
+/*공지사항 end*/
+/*퀵메뉴*/
+.quick_menu{overflow: hidden;}
+.quick_menu ul li{ margin-bottom:3px}
+.quick_menu ul.quick_Left{float: left;width:67%;}
+.quick_menu ul.quick_Right{float: right;width:32%;}
+/*쿡메뉴 end*/
+/*NEWS 게시판*/
+.board{margin: 15px auto; width: 100%; background: #ebebeb}
+.board h3{font-weight: bold; display: block; padding:15px; font-size: 16px; border-bottom: 2px solid #fff;}
+.board ul{width:100%; margin: 0 auto;}
+.board li{border-bottom: 1px solid #ddd;padding: 15px;text-overflow: ellipsis; white-space: nowrap;overflow: hidden}
+
+/*NEWS 게시판 end*/
+/*ACTIVITY 활동소식*/
+.activity{width: 99.5%; margin: 20px 0;background: #ebebeb;overflow: hidden; position: relative}
+.activity h3{font-weight: bold; display: block; padding:15px; font-size: 16px; border-bottom: 2px solid #fff;}
+
+#touchSlider { width:100%; height:240px;margin:15px 0; position:relative; overflow:hidden; }
+#touchSlider ul {width:180px;position:absolute; top:0; overflow:hidden; }
+#touchSlider li a{display: block;padding-left: 15px;overflow: hidden}
+#touchSlider ul li a p{height: 50px;padding: 10px;background: #3366cc;color: #fff;}
+
+.btn_area{position:absolute; top:10px; left:50%; margin-left:-30px}
+.btn_area .btn_page {display:inline-block; width:10px; height:10px; margin-right:3px; font-size:0px; line-height:0;
+  text-indent:-9999px; background:#ccc;border:none;}
+.btn_area .btn_page.on {background:#666; border:none;}
+
+/*ACTIVITY 활동소식 end*/
+/*footer*/
+footer{height:140px;position:relative;}
+footer .footercon{background: #333;width: 80%;height:80px; position:absolute; bottom:0;padding: 10px 10%;z-index:3;}
+footer .footercon p{text-align:center;color:#999;}
+footer .footercon .footlink{color:#999;}
+footer .footercon .footlink:active{color:#666;}
+footer .footercon .copy{font-size: 11px; color:#666; margin-top:10px;}
+
+ span{font-weight:bold; color:#FFF; cursor:pointer}
+/*footer end*/
+/*sidemenu*/
+#menu .search{overflow:hidden; margin:5px auto 50px; width:80%;}
+#menu .search #searchbox{display:block;height: 19px;border: 1px solid #ccc; padding: 3px 2%;float:left; width:74%;color: #eee}
+#menu .search #search_btn{display:block; border:none; width:20%; height:27px;
+background:url(../images/searchbtn.png) no-repeat center center #67c672;
+text-indent:-999999px; overflow: hidden; float: left; }
+#menu li{right:5px; padding:0 30px;}
+#menu li .mainmenu{border-bottom: 2px solid #20206b;font-weight: bold}
+#menu li dt{ padding: 10px 20px; border-bottom: 2px solid #20206b; font-weight: bold}
+#menu li dd{ padding: 10px 20px; background: #12123d;border-bottom: 1px solid #0e0e2b}
+
+/*sidemenu end*/
+/*top_slide*/
+   *{margin:0; padding:0}
+   ul{list-style:none}
+   img{border:0}
+
+
+.topbtn #toTop{display:block;width:100%;height:20px;background: #141450; text-align: center;padding: 10px 0;overflow:hidden;z-index: 5;}
+/*top_slide end*/
+
+@media screen and (max-width:480px){
+  header{height:45px;overflow: hidden;}
+  .main_logo{display: block;background: url(../images/Logo_480.png);width:130px; height:23px; text-indent:-9999px;
+  overflow:hidden; margin: 10px auto;}
+  #sideLeft_menu{display: block; background: url(../images/navibtn_480.png) no-repeat; width:45px; height:45px;
+  text-indent:-9999px; overflow:hidden; position:absolute; top:0; left:0;}
+  }

@@ -1,0 +1,80 @@
+/* CSS Document */
+
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub3Activity_hover.png)}
+/*content*/
+/* titleArea start */
+.titleArea h2{background:url(../images/content3/Activity.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:30px; margin:60px 0 0 20px}
+.titleArea{background:url(../common/images/sub3_titleback.jpg) no-repeat; height:115px;}
+/* titleArea end */
+
+#content{width: 775px;margin: 0 0 40px 25px;float: left;margin-top:20px;}
+
+/* contentArea start */
+
+.contentArea{overflow:hidden; position: relative;padding:40px 15px;}
+.contentArea h3{font-size: 24px; color:#3366cc; font-weight: bold;margin-bottom: 15px}
+
+/* schedule start */
+.schedule{overflow: hidden}
+.month{float:left;margin-right: 15px;padding: 10px; width:343px; height: 343px;border: 1px solid #ddd}
+.week{float:left;width:363px; height: 363px;border: 1px solid #ddd; background: #eee}
+h4{font-size:20px; font-weight: bold;}
+/* 월간 start */
+ul{list-style:none}
+img{border:0}
+
+.month{position: relative}
+.month h4{position: absolute;background: #67c672;top:0;left:0;width: 335px;color: #fff;padding: 10px 15px 15px}
+.calendar{width:345px;height:345px;overflow:hidden;
+		 position:relative;}
+.calendar span{ display:block; width:100px; overflow: hidden;position:absolute;
+				 right:17px; top:10px}
+.calendar span a{display:block; width:14px; height:14px;
+		text-indent:-9999px; overflow:hidden; float:left}
+ .calendar span .leftBtn{background:url(../images/content3/left.png);float: left}
+ .calendar span .RightBtn{background:url(../images/content3/right.png);float: right}
+
+table{ height:290px; margin-top: 7px}
+caption{margin-bottom: 30px;font-size: 20px; font-weight: bold;color:#ffff99;text-align: right;padding: 0 45px}
+th, td{width:40px;padding: 5px;}
+th{background:#FFE08C; color:#666; font-weight: bold; text-align: center}
+td{background:#eaeaea;}
+.sun{color:#F15F5F}
+.sat{color:#5586EB}
+/* 월간 end */
+/* 주간 start */
+.week h4{color:#fff;background:#67c672;padding: 10px 15px 15px}
+.week div{overflow: hidden;padding: 10px 20px;background: #fff; border-bottom: 1px dotted #ddd}
+.week div p{float: left;background: url(../images/content3/day.png)no-repeat; padding:10px 0;width:45px;height:25px;
+	text-align: center;font-size: 16px;font-weight: bold;color:#fff}
+.week div ul{float: left; padding: 5px 10px;}
+.week div dt{font-weight: bold;}
+
+/* 주간 end */
+/* schedule end */
+
+/* act_con start */
+.contentArea .act_con{overflow:hidden; width:100%; margin-top: 40px}
+.contentArea .act_con .mainActivity{overflow:hidden; margin-bottom: 30px}
+.contentArea .act_con .act_con01{width:380px;height:150px; margin-bottom: 20px;background:url('../images/content3/activity_01.jpg') no-repeat;}
+.contentArea .act_con .act_con02{width:380px;height:150px; background:url('../images/content3/activity_02.jpg') no-repeat; position:relative;}
+
+ul.actlist{overflow:hidden;padding:20px 10px;border-top: 2px solid #666}
+.actlist li{float:left; margin:0 10px 15px 0; width:161px;height:210px; padding: 5px;border: 1px solid #ddd}
+.actlist li.last{margin-right:0;}
+.actlist dd{margin-top:10px;padding:5px;}
+.actlist a:hover{color:#3264c8}
+
+.pagebtn {overflow:hidden; text-align:center; border-top:2px solid #666; border-bottom:2px solid #666; padding:5px 0;margin-bottom:15px}
+.pagebtn span{margin-right:5px;}
+.pagebtn span a{padding:0 5px}
+.pagebtn span a:hover{color:#3264c8}
+.pagebtn span .selectpage{color:#3264c8; font-weight:bold}
+.pagebtn span .pagelist:hover{color:#999}
+.listsearch{overflow:hidden;}
+.listsearch form{text-align:center; }
+.searchHidden{display:none;}
+/* act_con end */

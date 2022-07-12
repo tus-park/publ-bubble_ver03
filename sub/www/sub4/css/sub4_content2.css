@@ -1,0 +1,30 @@
+/* CSS Document */
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub4gallery_hover.png)}
+/*content*/
+/* titleArea start */
+.titleArea h2{background:url(../images/content2/gallery.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:30px; margin-top:60px; margin-left: 25px;}
+.titleArea{background:url(../common/images/sub4_titleback.jpg) no-repeat; height:115px;}
+/* titleArea end */
+
+/* content start */
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+.contentArea{margin:40px 0;padding:15px; overflow: hidden}
+
+.gallery ul.galleryllist{overflow:hidden;padding:0 10px;}
+.gallery .galleryllist li{float:left; margin:0 10px 15px 0; width:161px;height:210px; padding: 5px;border: 1px solid #ddd}
+.gallery .galleryllist li.last{margin-right:0;}
+.gallery .galleryllist dd{margin-top:10px;padding:5px; text-align: left}
+.gallery .galleryllist a:hover{color:#3264c8}
+
+.pagebtn {overflow:hidden; text-align:center; border-top:2px solid #666; border-bottom:2px solid #666; padding:5px 0;margin-bottom:15px}
+.pagebtn span{margin-right:5px;}
+.pagebtn span a{padding:0 5px}
+.pagebtn span a:hover{color:#3264c8}
+.pagebtn span .selectpage{color:#3264c8; font-weight:bold}
+.pagebtn span .pagelist:hover{color:#999}
+.listsearch{overflow:hidden;}
+.listsearch form{text-align:center; }
+.searchHidden{display:none;}

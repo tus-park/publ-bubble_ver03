@@ -1,0 +1,129 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* base */
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,'굴림',Gulim,AppleGothic,Arial,sans-serif; font-size:12px; color:#333}
+body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td{margin:0;padding:0;font-family:'맑은 고딕',MalgunGothic}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%}
+ul,ol{list-style:none}
+fieldset,img{border:0; vertical-align:top;}
+address{font-style:normal}
+p,li,dd{line-height:1.5em; text-align:justify}
+/* a-style */
+a{color:#333;text-decoration:none;outline: 0;}
+a:hover,a:active,a:focus{color:#333;text-decoration:none;outline: 0;}
+
+.hidden{position:absolute; top:0; left:-1000%; width:1px; height:1px; overflow:hidden}
+
+/* skipNav */
+#skipNav{position:relative;width:100%;overflow:hidden;}
+   #skipNav a{display:block; height:1px; margin-bottom:-1px;
+      overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:12px;}
+   #skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+     display:block;height:auto;padding:5px 0; background:#f2f2f2;}
+/* */
+
+/* header 공통 영역 */
+#header{width:100%;height:130px;background: url(../images/headerbg.png) repeat-x;}
+#header .headerInner{width:1000px; margin:0 auto;}
+#header .headerTop{overflow:hidden; height:80px;}
+#header .logo{margin:15px 0 0 20px; width:208px; height:37px; float:left; background:url(../images/logo.jpg); text-indent:-1000px}
+/*topMenu*/
+#header .topMenu{width:755px; float:left; position:relative;}
+#header .topMenu ul{overflow:hidden; float:right; margin-right:15px}
+#header .topMenu ul li{float:left; margin-top:15px; padding: 0 15px; background:url(../images/bar.jpg) right center no-repeat; }
+#header .topMenu li.topMenu_last{background: none; padding:0 0 0 15px;}
+
+/*search*/
+#header .topMenu .search{position:absolute; top:30px; right:15px;}
+#header .topMenu .searchHidden{position:absolute; top:0; left:-10000px; width:1px; height:1px; color:#fff; overflow:hidden}
+#header .topMenu .input_search{width:148px; height:23px; border:1px solid #ccc;}
+#header .topMenu .btm_search{width:25px; height:25px; background:url(../images/search.jpg) no-repeat; border:0;
+                         text-indent:-100000px; overflow:hidden}
+
+
+.menu_box{position:absolute; left:0; top:130px; background:#9ed3ff;
+                             width:100%; height:150px;z-index:2; display:none}
+                             /* filter:alpha(opacity=80);opacity:0.8;-moz-opacity:0.8;*/
+#nav{clear:both;width:1000px;}
+
+#nav ul.dropdownmenu{float:left;}
+#nav ul.dropdownmenu li.menu{position:relative;float:left;width:166px;height:50px; font-size: 16px; }
+#nav ul.dropdownmenu li h3{position:relative;width:166px;height:50px; overflow:hidden}
+#nav ul.dropdownmenu li a.depth1{position:absolute;text-indent:-999px;display:block;width:166px;height:100px;}
+#nav ul.dropdownmenu li.m1 a.depth1{
+	background:url(../images/main_nav1.png);}
+#nav ul.dropdownmenu li.m2 a.depth1{
+	background:url(../images/main_nav2.png);}
+#nav ul.dropdownmenu li.m3 a.depth1{
+	background:url(../images/main_nav3.png);}
+#nav ul.dropdownmenu li.m4 a.depth1{
+	background:url(../images/main_nav4.png);}
+#nav ul.dropdownmenu li.m5 a.depth1{
+	background:url(../images/main_nav5.png);}
+#nav ul.dropdownmenu li.m6 a.depth1{
+	background:url(../images/main_nav6.png);}
+
+
+#nav ul.dropdownmenu .menu ul{width:166px;height:119px;position:absolute;top:50px;left:0;padding:15px 0;line-height:1.5em;z-index:3;display:none}
+#nav ul.dropdownmenu .menu ul li{ text-align:center;}
+#nav ul.dropdownmenu .menu ul li a{color:#666;text-decoration:none}
+#nav ul.dropdownmenu .menu ul li a:hover{color:#3264c8; text-decoration:none; font-weight: bold;}
+
+
+
+/* footer 공통 영역*/
+#footer{clear:both; background:url(../images/footerbackground.jpg); background-repeat:repeat-x;}
+#footer .footerInner{width:1000px; margin:0 auto;}
+#footer .topFooter .footerLogo{width:245px; float:left}
+#footer .topFooter .footerCenter{width:482px; float:left; position:relative;}
+#footer .topFooter .footerCenter ul{margin-top: 30px;}
+#footer .topFooter .footerCenter li{float: left; padding: 0 15px; background: url(../images/bar.jpg) right center no-repeat;}
+#footer .topFooter .footerCenter li a:hover{text-decoration: underline;}
+
+#footer .topFooter .footerCenter .footerCenter_last{background: none;}
+
+#footer .topFooter .footerRight{width:273px; float:left;}
+#footer .topFooter .footerRight p{background: url(../images/main_40.jpg) no-repeat; text-indent: -10000px; overflow: hidden; width:82px; float:left; margin-top:30px; margin-left:15px;}
+
+/* Select */
+.select{ position:relative; line-height:normal; display:inline-block;  vertical-align:middle; background:#fff; float:left; margin: 25px 0 0 5px}
+.select *{ margin:0; padding:0; cursor:pointer; font-size:12px; font-family:Tahoma, Sans-serif;}
+.select .myValue{ position:relative; z-index:2; left:0; top:0; border:1px solid #bababa; color:#666; line-height:19px; _line-height:normal; text-align:left; overflow:visible; background:transparent;}
+.select .myValue.selected{ font-weight:bold;}
+.select.open .myValue,
+.select .myValue.outLine{ border:1px solid #999;}
+.select button.myValue{ height:21px; width:100%; text-indent:5px; *text-indent:0; *padding-left:5px;}
+.select div.myValue{ height:19px; text-indent:8px;}
+.select .ctrl{ position:absolute; top:0; right:0; width:18px; height:19px; border:1px solid #bababa; border-left:1px solid #eaeaea; background:#fff;}
+.select .arrow{ position:absolute; width:0; height:0; top:9px; right:6px; line-height:0; font-size:0; border-top:3px solid #999; border-left:3px solid #fff; border-right:3px solid #fff;}
+.select ul{ position:absolute; top:-145px; left:0; width:100%; list-style:none; border:0; border-top:1px solid #bababa; border-bottom:1px solid #bababa; background:#fff; }
+.select ul.aList{ display:none;}
+.select.open ul.aList{ display:block;}
+.select ul.iList{ left:-2000%;}
+.select.open ul.iList{ left:0;}
+.select li{ position:relative; overflow:hidden; white-space:nowrap; height:18px; border-left:1px solid #bababa; border-right:1px solid #bababa;}
+.select li input.option{ position:absolute; width:100%; height:20px; line-height:20px;}
+.select li label{ position:absolute; left:0; top:0; width:100%; text-indent:8px; *text-indent:6px; height:18px; line-height:18px; color:#767676; background:#fff;}
+.select li a{ display:block; text-indent:8px; *text-indent:6px; height:18px; line-height:18px; color:#767676; background:#fff; text-decoration:none;}
+.select li.hover *{ background:#999; color:#fff;}
+
+
+#footer .bottomFooter{overflow:hidden; padding: 20px 15px; clear:both}
+#footer .bottomFooter .footerAdress{width:725px; float:left;}
+#footer .bottomFooter .footerAdress p{font-size:11px; color:#666;}
+
+#footer .bottomFooter .footerSNS{width:245px; float:left; overflow:hidden;}
+#footer .bottomFooter .footerSNS .footerSNS_icon{width:100px; float:right;}
+#footer .bottomFooter .footerSNS .Link_twitter{background:url(../images/tweeter.jpg) no-repeat; width:26px;
+height:26px; font-size: 14px; margin-bottom:20px; text-indent:-10000px; overflow:hidden; float:left;}
+#footer .bottomFooter .footerSNS .Link_facebook{background:url(../images/facebook.jpg) no-repeat; width:26px;
+height:26px; font-size: 14px; margin-bottom:20px; margin-left:10px; text-indent:-10000px; overflow:hidden;
+float:left;}
+#footer .bottomFooter .footerSNS .Link_blog{background:url(../images/main_78.jpg) no-repeat; width:26px;
+height:26px; font-size: 14px; margin-bottom:20px; margin-left:10px; text-indent:-10000px; overflow:hidden;
+float:left;}
+
+/* 서브 탑 메뉴 */
+  .topbtn #toTop{display:block;width:39px;height:39px;
+      position:fixed;bottom:150px;left:50%;margin-left:520px;overflow:hidden}

@@ -1,0 +1,17 @@
+/* CSS Document */
+
+/* 서브페이지 공통영역-left  */
+
+.leftNav h3{background: url(../images/sub4_community.jpg) no-repeat;height: 150px;text-indent: -99999px;overflow: hidden}
+.leftNav .sub_menu{border: 1px solid #ccc;}
+.leftNav .sub_menu li{border-bottom:1px solid #ccc;}
+.leftNav .sub_menu .sub_menu2{border-bottom:none}
+.leftNav .sub_menu li a{display: block; height: 49px; text-indent:-99999px;overflow: hidden}
+
+.leftNav .sub_menu .sub_menu1 a{background: url(../images/sub4FAQ.png)}
+.leftNav .sub_menu .sub_menu2 a{background: url(../images/sub4gallery.png)}
+
+
+
+.leftNav .sub_menu .sub_menu1 a:hover{background: url(../images/sub4FAQ_hover.png)}
+.leftNav .sub_menu .sub_menu2 a:hover{background: url(../images/sub4gallery_hover.png)}

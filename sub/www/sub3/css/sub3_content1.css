@@ -1,0 +1,50 @@
+/* CSS Document */
+
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub3Info_hover.png)}
+/*content*/
+/* titleArea start */
+.titleArea h2{background:url(../images/content1/info.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:30px; margin:60px 0 0 20px}
+.titleArea{background:url(../common/images/sub3_titleback.jpg) no-repeat; height:115px;}
+/* titleArea end */
+
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+
+/* contentArea start */
+.contentArea{margin:40px 0;padding: 0 15px;}
+*{margin:0; padding:0}
+caption{position:absolute; left:-1000%; top:0; width:1px;height:1px; overflow:hidden}
+a{color:#333; text-decoration:none}
+table{border-collapse:collapse}
+
+.notice{overflow:hidden ;width:100%; clear:both; position:relative; color:#666; margin:0 auto}
+.notice table{width:100%; font-family:Verdana, Geneva, sans-serif;font-size:12px; line-height:2em;color:#666; }
+.notice table thead th{ border-right:1px solid #fff}
+.notice table thead tr{border-bottom:1px solid #ccc;}
+.notice table tr{border-bottom:1px dotted #ccc}
+.notice table tr.no_line{border-bottom:0}
+.notice table .form_tr{text-align:center}
+.notice table .form_th{text-align:right; padding-right:10px}
+.notice table th, table tr, table td{padding:5px 1px 5px 1px}
+.notice table tr{text-align:center;vertical-align:inherit; display:table-row}
+.notice table th, table td{display:table-cell; vertical-align:inherit; text-align:center}
+.notice table .td_left{text-align:left; padding-left:30px}
+.notice table .btn{width:44px; height:17px;text-indent:-999px; overflow:hidden;background:url(../images/content1/search_btn.jpg);border:0}
+.notice table tbody .notice_tit{color:#3264c8; }
+.notice table tbody .event_tit{color:#32b432; }
+.notice table tbody .notArea{background:#eee}
+.notice table tbody a:hover{text-decoration: underline; color:#666}
+
+/* tfoot - pagebtn start */
+.pagebtn {overflow:hidden; text-align:center; border-top:2px solid #666; border-bottom:2px solid #666; padding:5px 0;margin-bottom:15px}
+.pagebtn span a{padding:0 5px}
+.pagebtn span a:hover{color:#3264c8;}
+.pagebtn span .selectpage{color:#3264c8;}
+.pagebtn span .pagelist:hover{color:#999;}
+.listsearch{overflow:hidden;width:100%}
+.listsearch form{text-align:center; }
+.searchHidden{display:none;}
+/* tfoot - pagebtn end */
+/* contentArea end */

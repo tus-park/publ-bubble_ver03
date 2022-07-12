@@ -1,0 +1,21 @@
+/* CSS Document */
+
+/* 서브페이지 공통영역-left  */
+
+.leftNav h3{background: url(../images/sub1_intro.jpg) no-repeat;height: 150px;text-indent: -99999px;overflow: hidden}
+.leftNav .sub_menu{border: 1px solid #ccc;}
+.leftNav .sub_menu li{border-bottom:1px solid #ccc;}
+.leftNav .sub_menu .sub_menu5{border-bottom:none}
+.leftNav .sub_menu li a{display: block; height: 49px; text-indent:-99999px;overflow: hidden}
+
+.leftNav .sub_menu .sub_menu1 a{background: url(../images/sub1greeting.png)}
+.leftNav .sub_menu .sub_menu2 a{background: url(../images/sub1company.png)}
+.leftNav .sub_menu .sub_menu3 a{background: url(../images/sub1history.png)}
+.leftNav .sub_menu .sub_menu4 a{background: url(../images/sub1chart.png)}
+.leftNav .sub_menu .sub_menu5 a{background: url(../images/sub1map.png)}
+
+.leftNav .sub_menu .sub_menu1 a:hover{background: url(../images/sub1greeting_hover.png)}
+.leftNav .sub_menu .sub_menu2 a:hover{background: url(../images/sub1company_hover.png)}
+.leftNav .sub_menu .sub_menu3 a:hover{background: url(../images/sub1history_hover.png)}
+.leftNav .sub_menu .sub_menu4 a:hover{background: url(../images/sub1chart_hover.png)}
+.leftNav .sub_menu .sub_menu5 a:hover{background: url(../images/sub1map_hover.png)}

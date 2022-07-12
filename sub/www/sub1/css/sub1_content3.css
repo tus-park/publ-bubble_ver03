@@ -1,0 +1,119 @@
+/* CSS Document */
+
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub1history_hover.png)}
+/*content*/
+.titleArea h2{background:url(../images/content3/history.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:28px; margin:60px 0 0 20px}
+.titleArea{background:url(../common/images/sub1_titleback.jpg) no-repeat; height:115px;}
+
+
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+.contentArea{overflow: hidden; margin: 50px 0 100px 0;}
+.history{float: left; width: 238px; padding-right: 14px; margin-right:14px; border-right: 1px dotted #ccc;}
+#history_last{ padding-right:0; margin-right: 0; border: none}
+
+
+.history h3{margin:0 auto; font-size: 16px;text-align: center; font-weight: bold}
+.history ul {margin-top:40px;}
+.history ul li{height: 300px;margin-bottom: 10px}
+.history ul li dt{margin-bottom: 20px}
+.history ul li dd{padding-left: 25px; margin-bottom: 10px;}
+.history ul li dd span{display: block; width:0; height:0; position: absolute; top:0; left:-999999px; color:#fff; overflow: hidden}
+.history ul .period_first{height: 255px;}
+
+
+/*period1*/
+.history .year14{background: url(../images/content3/year14.jpg) no-repeat center 0; height: 55px; text-indent: -9999px; overflow: hidden}
+.history .period_first .year14_month1{background: url(../images/content3/period1_month02.jpg) no-repeat 0 center;}
+.history .period_first .year14_month2{background: url(../images/content3/period1_month04.jpg) no-repeat 0 center;}
+.history .period_first .year14_month3{background: url(../images/content3/period1_month08.jpg) no-repeat 0 center;}
+.history .period_first .year14_month4{background: url(../images/content3/period1_month12.jpg) no-repeat 0 center;}
+
+.history .year13{background: url(../images/content3/year13.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year13_month1{background: url(../images/content3/period1_month03.jpg) no-repeat 0 center;}
+.history .year13_month2{background: url(../images/content3/period1_month06.jpg) no-repeat 0 center;}
+.history .year13_month3{background: url(../images/content3/period1_month07.jpg) no-repeat 0 center;}
+.history .year13_month4{background: url(../images/content3/period1_month12.jpg) no-repeat 0 center;}
+
+.history .year12{background: url(../images/content3/year12.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year12_month1{background: url(../images/content3/period1_month02.jpg) no-repeat 0 center;}
+.history .year12_month2{background: url(../images/content3/period1_month04.jpg) no-repeat 0 center;}
+.history .year12_month3{background: url(../images/content3/period1_month08.jpg) no-repeat 0 center;}
+.history .year12_month4{background: url(../images/content3/period1_month12.jpg) no-repeat 0 center;}
+
+.history .year11{background: url(../images/content3/year11.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year11_month1{background: url(../images/content3/period1_month03.jpg) no-repeat 0 center;}
+.history .year11_month2{background: url(../images/content3/period1_month04.jpg) no-repeat 0 center;}
+.history .year11_month3{background: url(../images/content3/period1_month07.jpg) no-repeat 0 center;}
+.history .year11_month4{background: url(../images/content3/period1_month11.jpg) no-repeat 0 center;}
+
+.history .year10{background: url(../images/content3/year10.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year10_month1{background: url(../images/content3/period1_month03.jpg) no-repeat 0 center;}
+.history .year10_month2{background: url(../images/content3/period1_month04.jpg) no-repeat 0 center;}
+.history .year10_month3{background: url(../images/content3/period1_month07.jpg) no-repeat 0 center;}
+.history .year10_month4{background: url(../images/content3/period1_month11.jpg) no-repeat 0 center;}
+
+/*period2*/
+.history .year09{background: url(../images/content3/year09.jpg) no-repeat center 0; height: 55px; text-indent: -9999px; overflow: hidden}
+.history .period_first .year09_month1{background: url(../images/content3/period2_month02.jpg) no-repeat 0 center;}
+.history .period_first .year09_month2{background: url(../images/content3/period2_month07.jpg) no-repeat 0 center;}
+.history .period_first .year09_month3{background: url(../images/content3/period2_month08.jpg) no-repeat 0 center;}
+.history .period_first .year09_month4{background: url(../images/content3/period2_month10.jpg) no-repeat 0 center;}
+
+.history .year08{background: url(../images/content3/year08.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year08_month1{background: url(../images/content3/period2_month04.jpg) no-repeat 0 center;}
+.history .year08_month2{background: url(../images/content3/period2_month06.jpg) no-repeat 0 center;}
+.history .year08_month3{background: url(../images/content3/period2_month10.jpg) no-repeat 0 center;}
+.history .year08_month4{background: url(../images/content3/period2_month11.jpg) no-repeat 0 center;}
+
+.history .year07{background: url(../images/content3/year07.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year07_month1{background: url(../images/content3/period2_month02.jpg) no-repeat 0 center;}
+.history .year07_month2{background: url(../images/content3/period2_month04.jpg) no-repeat 0 center;}
+.history .year07_month3{background: url(../images/content3/period2_month06.jpg) no-repeat 0 center;}
+.history .year07_month4{background: url(../images/content3/period2_month12.jpg) no-repeat 0 center;}
+
+.history .year06{background: url(../images/content3/year06.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year06_month1{background: url(../images/content3/period2_month03.jpg) no-repeat 0 center;}
+.history .year06_month2{background: url(../images/content3/period2_month05.jpg) no-repeat 0 center;}
+.history .year06_month3{background: url(../images/content3/period2_month06.jpg) no-repeat 0 center;}
+.history .year06_month4{background: url(../images/content3/period2_month07.jpg) no-repeat 0 center;}
+
+.history .year05{background: url(../images/content3/year05.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year05_month1{background: url(../images/content3/period2_month02.jpg) no-repeat 0 center;}
+.history .year05_month2{background: url(../images/content3/period2_month03.jpg) no-repeat 0 center;}
+.history .year05_month3{background: url(../images/content3/period2_month04.jpg) no-repeat 0 center;}
+.history .year05_month4{background: url(../images/content3/period2_month10.jpg) no-repeat 0 center;}
+
+/*period3*/
+.history .year04{background: url(../images/content3/year04.jpg) no-repeat center 0; height: 55px; text-indent: -9999px; overflow: hidden}
+.history .period_first .year04_month1{background: url(../images/content3/period3_month02.jpg) no-repeat 0 center;}
+.history .period_first .year04_month2{background: url(../images/content3/period3_month04.jpg) no-repeat 0 center;}
+.history .period_first .year04_month3{background: url(../images/content3/period3_month05.jpg) no-repeat 0 center;}
+.history .period_first .year04_month4{background: url(../images/content3/period3_month11.jpg) no-repeat 0 center;}
+
+.history .year03{background: url(../images/content3/year03.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year03_month1{background: url(../images/content3/period3_month02.jpg) no-repeat 0 center;}
+.history .year03_month2{background: url(../images/content3/period3_month03.jpg) no-repeat 0 center;}
+.history .year03_month3{background: url(../images/content3/period3_month04.jpg) no-repeat 0 center;}
+.history .year03_month4{background: url(../images/content3/period3_month12.jpg) no-repeat 0 center;}
+
+.history .year02{background: url(../images/content3/year02.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year02_month1{background: url(../images/content3/period3_month03.jpg) no-repeat 0 center;}
+.history .year02_month2{background: url(../images/content3/period3_month05.jpg) no-repeat 0 center;}
+.history .year02_month3{background: url(../images/content3/period3_month11.jpg) no-repeat 0 center;}
+.history .year02_month4{background: url(../images/content3/period3_month12.jpg) no-repeat 0 center;}
+
+.history .year01{background: url(../images/content3/year01.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year01_month1{background: url(../images/content3/period3_month01.jpg) no-repeat 0 center;}
+.history .year01_month2{background: url(../images/content3/period3_month03.jpg) no-repeat 0 center;}
+.history .year01_month3{background: url(../images/content3/period3_month06.jpg) no-repeat 0 center;}
+.history .year01_month4{background: url(../images/content3/period3_month08.jpg) no-repeat 0 center;}
+
+.history .year00{background: url(../images/content3/year00.jpg) no-repeat center 0; height: 100px; text-indent: -9999px; overflow: hidden}
+.history .year00_month1{background: url(../images/content3/period3_month03.jpg) no-repeat 0 center;}
+.history .year00_month2{background: url(../images/content3/period3_month05.jpg) no-repeat 0 center;}
+.history .year00_month3{background: url(../images/content3/period3_month06.jpg) no-repeat 0 center;}
+.history .year00_month4{background: url(../images/content3/period3_month11.jpg) no-repeat 0 center;}

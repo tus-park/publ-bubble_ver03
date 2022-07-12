@@ -1,0 +1,31 @@
+/* CSS Document */
+
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub6newsletter_hover.png)}
+/*content*/
+.titleArea h2{background:url(../images/content2/newsletter.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:28px; margin:60px 0 0 20px}
+.titleArea{background:url(../common/images/sub6_titleback.jpg) no-repeat; height:115px;}
+
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+.contentArea{margin: 40px 0;padding: 0 15px;}
+
+.nl_info{background:url(../images/content2/newsletter_back.jpg) no-repeat;height:60px;
+	margin:0 20px;padding:10px 100px}
+#form1{margin-top:30px; border: 1px solid #ccc;}
+.moblie{text-align:center; height:20px; margin-top: 20px; color:#3264c8}
+#form1 table{border-collapse:collapse; width:100%;margin: 0 auto}
+#form1 caption{position: absolute; visibility: hidden; font-size: 0;}
+#form1 tr{height:50px;border-bottom:1px dotted #ccc;}
+#form1 th{width: 33%;;padding:0 15px}
+#form1 td{width: 33%;padding:0 15px}
+#form1 input{vertical-align: text-top}
+#form1 label{vertical-align: 4px}
+#form1 #user_email{border: 1px solid #ddd;width: 130px;height: 20px}
+#form1 #email{vertical-align: 2px}
+
+#form1 .btn{overflow: hidden;border-bottom:0;}
+.btn1{width:118px; height:30px; color:#fff; font-weight:bold; border:none; cursor:pointer;background:#32b332;}
+.btn2{width:118px; height:30px; font-weight:bold; border:1px solid #32b332; background:#fff; color:#666;}

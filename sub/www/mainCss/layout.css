@@ -1,0 +1,230 @@
+/* CSS Document */
+#content{width:1000px; margin:20px auto;}
+#content a:hover{text-decoration:underline;color:#999}
+#content dd{text-align: left}
+
+#content .main{overflow:hidden}
+
+#content .main .mainVisual{width:750px;height:450px;border: 1px solid #ccc; border-right: 0;border-bottom: 0;float:left; position:relative; overflow:hidden}
+#content .main .mainVisual .vgallery{width:755px; height:450px; position:relative; left:0;top:0;overflow:hidden}
+#content .main .mainVisual .vgallery ul li{list-style:none}
+.vgallery .link1, .vgallery .link2, .vgallery .link3{display:none}
+/* visual */
+.dock{width:120px; position:absolute; right:5px; bottom:20px;}
+.dock span.mbutton, .ps{ margin-right:15px; cursor:pointer; display:block; float:left; width:15px; height:15px;background:url(../images/stop.png)}
+
+.dock span.mbutton{ margin-right:15px; cursor:pointer;
+    display:block; float:left; width:15px; height:15px; background:url(../images/btn.png)}
+
+img{border:0; vertical-align:top;}
+/* button */
+
+#content .main .mainRight{width:245px; float:left}
+
+/*info*/
+#content .main .mainRight .info{width:215px; height:194px; padding:15px 15px; border:1px solid #ccc;
+                                position: relative;border-bottom: none;}
+#content .main .mainRight .info h4{background:url(../images/con_title/info.png) no-repeat;
+  font-size: 14px; margin-bottom:20px; text-indent:-10000px; overflow:hidden}
+#content .main .mainRight .info ul{list-style:url(../images/dot.jpg); margin-left:15px;}
+
+/*news*/
+#content .main .mainRight .news{width:215px; height:194px; padding:15px 15px; border:1px solid #ccc;
+                                border-bottom: none; position: relative; }
+#content .main .mainRight .news h4{background:url(../images/con_title/news.png) no-repeat;
+                                font-size: 14px; margin-bottom:20px; text-indent:-10000px; overflow:hidden}
+#content .main .mainRight .news dd{margin-top: 10px;}
+
+/*quick*/
+#content .quickMenu{overflow: hidden; width: 1000px;}
+#content .quickMenu .quickLogo{width:245px; height:90px; float:left; background: url(../images/mainbusiness.png) #32b332;
+                         text-indent: -10000px; overflow: hidden;}
+#content .quickMenu .quickButton{width:754px; height: 90px; float:left; background: #32b332;
+                         overflow: hidden; border-right:1px solid #ccc;}
+
+/*quick button*/
+#content .quickMenu .quickButton .quick1{float:left;margin-left: 67px; margin-top: 13px; text-indent: -10000px; overflow: hidden;}
+#content .quickMenu .quickButton .quick2{float:left;margin-left: 67px; margin-top: 13px; text-indent: -10000px; overflow: hidden;}
+#content .quickMenu .quickButton .quick3{float:left; margin-left: 67px; margin-top: 13px; text-indent: -10000px; overflow: hidden;}
+#content .quickMenu .quickButton .quick4{float:left; margin-left: 67px; margin-top: 13px; text-indent: -10000px; overflow: hidden;}
+#content .quickMenu .quickButton .quick5{float:left; margin-left: 67px; margin-top: 13px; text-indent: -10000px; overflow: hidden;}
+
+#content .quickMenu .quickButton .quicklink1{display:block; background: url(../images/quick01.png); width:70px; height: 65px;}
+#content .quickMenu .quickButton .quicklink2{display:block;background: url(../images/quick02.png); width:70px; height: 65px;}
+#content .quickMenu .quickButton .quicklink3{display:block; background: url(../images/quick03.png); width:70px; height: 65px;}
+#content .quickMenu .quickButton .quicklink4{display:block; background: url(../images/quick04.png); width:70px; height: 65px;}
+#content .quickMenu .quickButton .quicklink5{display:block; background: url(../images/quick05.png); width:70px; height: 65px;}
+/*quick button hover*/
+#content .quickMenu .quickButton .quicklink1:hover{background: url(../images/quick_hover01.png);}
+#content .quickMenu .quickButton .quicklink2:hover{background: url(../images/quick_hover02.png);}
+#content .quickMenu .quickButton .quicklink3:hover{background: url(../images/quick_hover03.png);}
+#content .quickMenu .quickButton .quicklink4:hover{background: url(../images/quick_hover04.png);}
+#content .quickMenu .quickButton .quicklink5:hover{background: url(../images/quick_hover05.png);}
+
+
+
+/*topContent*/
+#content .topContent{overflow:hidden; margin-top: 20px;}
+
+/*column*/
+#content .topContent .column{width:458px; height:198px;float:left; border: 1px solid #ccc; padding: 15px 15px;
+                             position: relative;}
+
+#content .topContent .column h4{background:url(../images/con_title/column.png) no-repeat;
+                                font-size: 14px; margin-bottom:20px; text-indent:-10000px; overflow:hidden}
+#content .topContent .column li{padding-bottom:20px; height: 190px;}
+#content .topContent .column img{float: left; margin-right: 15px;}
+#content .topContent .column dt{margin-bottom:15px;}
+#content .topContent .column span{display:block; float: left; }
+#content .topContent .column a{display: block; font-size:11px; color:#666; margin-top: 15px;}
+
+
+#content .topContent .column .leftBtn{display:block; width:8px; height:13px; background:url(../images/prev.png);text-indent:-9999px; overflow:hidden; position: absolute; top:0; right:35px}
+#content .topContent .column .RightBtn{display:block; width:8px; height:13px; background:url(../images/next.png);text-indent:-9999px; overflow:hidden; position: absolute; top:0; right:15px}
+
+
+
+
+/*Gallery*/
+#content .topContent .Gallery{width:246px; float:left; margin-left: 20px;}
+#content .topContent .Gallery .galleryIcon{display:block; width:246px; height:230px;
+                    background:url(../images/galleryicon.png); text-indent:-10000px; overflow:hidden}
+#content .topContent .Gallery .galleryIcon:hover{background:url(../images/gallery_Hover.png);}
+/*calendar*/
+#content .topContent .calendar{width:212px; height:198px; float:left; border: 1px solid #ccc; padding: 15px 15px; position:relative;}
+#content .topContent .calendar ul{background:url(../images/main_34.jpg) 0 3px no-repeat;}
+#content .topContent .calendar li{margin-left:35px; margin-bottom:5px;}
+#content .topContent .calendar h4{background:url(../images/con_title/calendar.png) no-repeat;
+                                font-size: 14px; margin-bottom:20px; text-indent:-10000px; overflow:hidden}
+
+
+/* bottomContent */
+#content .bottomContent{overflow:hidden; margin-top: 20px;}
+/* archive */
+
+#content .bottomContent .archive{width:245px; float:left}
+#content .bottomContent .archive .archiveIcon{display:block; width:246px; height:230px;
+                    background:url(../images/archiveIcon.png); text-indent:-10000px; overflow:hidden}
+#content .bottomContent .archive .archiveIcon:hover{background:url(../images/archive_Hover.png);}
+/* arctabs */
+#content .bottomContent .arctabs{position:relative;width:243px; height:228px; float:left; border:1px solid #ccc;}
+/*archive tab content*/
+.arctabs a.tab {display:block;width:81px; height:22px;position:absolute;text-indent: -9999px;overflow: hidden}
+
+.arctabs a.tab1{background:url('../images/tab1on.png');left:0; top:0;}
+.arctabs a.tab2{background:url('../images/tab2.png');left:81px; top:0}
+.arctabs a.tab3{background:url('../images/tab3.png');left:162px; top:0;}
+
+.arctabs .contlist {display:none; margin-top:22px;padding:15px;line-height:1.5em; height:176px;overflow: hidden}
+/*arctabs*/
+#content .bottomContent .arctabs .tab_list li{margin-bottom: 5px; padding-left: 25px;background: url('../images/pdficon.png')no-repeat}
+/*arctabs tab1*/
+#content .bottomContent .arctabs .tab_list .tab1_li1{background: url('../images/diskicon.png')no-repeat}
+#content .bottomContent .arctabs .tab_list .tab1_li2{background: url('../images/diskicon.png')no-repeat}
+#content .bottomContent .arctabs .tab_list .tab1_li3{background: url('../images/pdficon.png')no-repeat}
+#content .bottomContent .arctabs .tab_list .tab1_li4{background: url('../images/diskicon.png')no-repeat}
+#content .bottomContent .arctabs .tab_list .tab1_li5{background: url('../images/pdficon.png')no-repeat}
+#content .bottomContent .arctabs .tab_list .tab1_li6{background: url('../images/pdficon.png')no-repeat}
+#content .bottomContent .arctabs .tab_list .tab1_li7{background: url('../images/pdficon.png')no-repeat}
+#content .bottomContent .arctabs .tab_list .tab1_li8{background: url('../images/pdficon.png')no-repeat}
+/* arctabs tab2*/
+#content .bottomContent .arctabs .public li{padding-left: 45px}
+#content .bottomContent .arctabs .public1{background:url(../images/public_img01.png) no-repeat; height:52px;margin-bottom:10px;}
+
+#content .bottomContent .arctabs .public2{background:url(../images/public_img02.png) no-repeat; height:52px;margin-bottom:10px;}
+
+#content .bottomContent .arctabs .public3{background:url(../images/public_img03.png) no-repeat ; height:52px;}
+
+/* arctabs tab3*/
+
+/* newsLetter */
+#content .bottomContent .newsLetter{width:490px; height:230px; float:right; background:url(../images/newsletter.jpg);                                    position:relative;}
+#content .bottomContent .newsLetter h4{font-size: 14px; margin-bottom:20px; text-indent:-10000px; overflow:hidden}
+#content .bottomContent .newsLetter p{font-size: 12px; margin-bottom:20px; text-indent:-10000px; overflow:hidden}
+/* newsLetter request */
+#content .bottomContent .newsLetter .request{position:absolute; top:132px; left:35px;}
+#content .bottomContent .newsLetter .input_letter{height:25px; width:200px; border:0; font-size:12px;}
+#content .bottomContent .newsLetter .btm_letter{height:25px; width:65px; border:0; font-size:12px;
+                                   font-weight:bold; color:#ccc; background:#141450;}
+#content .bottomContent .newsLetter .letterHidden{position:absolute; top:0; left:-10000px; width:1px; height:1px; color:#fff; overflow:hidden}
+
+/* SNS */
+
+#content .snsContent{overflow:hidden; border:1px solid #ccc; margin-top:20px;}
+/* blog */
+#content .snsContent .blog{position: relative; width:332px; height: 230px; float:left; border-right:1px dotted #ccc;}
+#content .snsContent .blog .btit{height:18px;padding: 15px;background: #ddd}
+#content .snsContent .blog h4{background:url(../images/con_title/sns_blog.png) no-repeat;
+                                font-size: 14px; text-indent:-10000px; overflow:hidden}
+#content .snsContent .blog .blog_div{overflow:auto; margin: 10px auto; padding:0 15px;height: 162px}
+/* blog1 */
+#content .snsContent .blog .blog1{background:url(../images/main_47.jpg) no-repeat; border-bottom: 1px dotted #ccc;}
+#content .snsContent .blog .blog1 dl{padding-left:85px; margin-bottom:15px;}
+#content .snsContent .blog .blog1 dl dt{ margin-bottom:15px;}
+/* blog2 */
+#content .snsContent .blog .blog2{background:url(../images/main_48.jpg) no-repeat; margin-top: 15px; border-bottom: 1px dotted #ccc;}
+#content .snsContent .blog .blog2 dl{padding-left:85px; margin-bottom:15px;}
+#content .snsContent .blog .blog2 dl dt{margin-bottom:15px;}
+/* blog3 */
+#content .snsContent .blog .blog3{background:url(../images/main_49.jpg) no-repeat;  margin-top: 15px;}
+#content .snsContent .blog .blog3 dl{padding-left:85px; margin-bottom:15px;}
+
+#content .snsContent .blog .blog_link{position: absolute; top:13px; right:15px}
+
+
+/* twitter */
+#content .snsContent .twitter{position: relative;width:331px; height: 230px; float:left; border-right:1px dotted #ccc;
+}
+#content .snsContent .twitter .twtit{height:17px;padding: 15px;border-bottom: 1px solid #ddd}
+#content .snsContent .twitter h4{background:url(../images/con_title/sns_twitter.png) no-repeat;
+                                font-size: 14px;text-indent:-10000px; overflow:hidden}
+#content .snsContent .twitter .twitter_div{overflow:auto; margin: 10px auto; padding:0 15px;height: 162px}
+#content .snsContent .twitter .twitter_link{color:#00F;}
+/* twitter1 */
+#content .snsContent .twitter .twitter1{background:url(../images/twitter_profile.jpg) no-repeat; border-bottom: 1px dotted #ccc;}
+#content .snsContent .twitter .twitter1 dl{padding-left:50px; margin-bottom:15px;}
+#content .snsContent .twitter .twitter1 dl dt{ margin-bottom:15px;}
+#content .snsContent .twitter .twitter1 dl dd{ overflow:hidden}
+#content .snsContent .twitter .twitter1 dl dd li{float:left; padding: 0 10px; background:url(../common/images/bar.jpg) right center no-repeat; font-size:11px; color:#666;}
+#content .snsContent .twitter .twitter1 dl dd .twitter_last{background:none;}
+/* twitter2 */
+#content .snsContent .twitter .twitter2{background:url(../images/twitter_profile.jpg) no-repeat; margin-top: 15px; border-bottom: 1px dotted #ccc;}
+#content .snsContent .twitter .twitter2 dl{padding-left:50px; margin-bottom:15px;}
+#content .snsContent .twitter .twitter2 dl dt{ margin-bottom:15px;}
+#content .snsContent .twitter .twitter2 dl dd{ overflow:hidden}
+#content .snsContent .twitter .twitter2 dl dd li{float:left; padding: 0 10px; background:url(../common/images/bar.jpg) right center no-repeat; font-size:11px; color:#666;}
+#content .snsContent .twitter .twitter2 dl dd .twitter_last{background:none;}
+/* twitter3 */
+#content .snsContent .twitter .twitter3{background:url(../images/twitter_profile.jpg) no-repeat; margin-top: 15px;}
+#content .snsContent .twitter .twitter3 dl{padding-left:50px; margin-bottom:15px;}
+#content .snsContent .twitter .twitter3 dl dt{ margin-bottom:15px;}
+#content .snsContent .twitter .twitter3 dl dd{ overflow:hidden}
+#content .snsContent .twitter .twitter3 dl dd li{float:left; padding: 0 10px; background:url(../common/images/bar.jpg) right center no-repeat; font-size:11px; color:#666;}
+#content .snsContent .twitter .twitter3 dl dd .twitter_last{background:none;}
+
+#content .snsContent .twitter .follow{position: absolute; top:13px; right:15px}
+
+/* facebook */
+#content .snsContent .facebook{position:relative;width:332px;height: 230px; float:left; border-right:1px dotted #ccc;
+}
+#content .snsContent .facebook .fbtit{height:18px;padding: 15px;background: #ddd}
+#content .snsContent .facebook h4{background:url(../images/con_title/sns_facebook.png) no-repeat;
+                                font-size: 14px; text-indent:-10000px; overflow:hidden}
+#content .snsContent .facebook .facebook_link{color:#00F;}
+#content .snsContent .facebook_div{overflow:auto; margin: 10px auto; padding:0 15px;height: 162px}
+#content .snsContent .facebook_div ul{padding-bottom: 30px;}
+#content .snsContent .facebook_div .facebook_profile{background:url(../images/facebook_profile.jpg) no-repeat;}
+#content .snsContent .facebook_div .facebook_profile dl{padding-left:50px; margin-bottom:15px;}
+#content .snsContent .facebook_div .facebook_profile dl dd{font-size:11px; color:#666; margin-bottom: 20px;}
+#content .snsContent .facebook_div .facebook_con p{margin-bottom:15px;}
+
+#content .snsContent .facebook .like{position: absolute; top:13px; right:15px}
+
+/*active*/
+#active #active_inner h4{background:url(../images/con_title/active.png) no-repeat; margin: 15px 0 0 15px;
+                                font-size: 14px; margin-bottom:20px; text-indent:-10000px; overflow:hidden}
+
+
+
+/*more*/
+.more{position: absolute; top:15px; right:15px}

@@ -1,0 +1,53 @@
+/* CSS Document */
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub4FAQ_hover.png)}
+/*content*/
+/* titleArea start */
+.titleArea h2{background:url(../images/content1/faq.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:30px; margin-top:60px; margin-left: 25px;}
+.titleArea{background:url(../common/images/sub4_titleback.jpg) no-repeat; height:115px;}
+/* titleArea end */
+
+/* content start */
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+.contentArea{margin:40px 0;padding:15px;}
+
+h3{font-size:24px; font-weight:bold; color:#3264c8}
+
+/* faq start */
+.faq{width:100%;font-size:12px;}
+.faq .hgroup{position:relative;margin:0 0 10px 0;}
+.faq .hgroup .all{position:absolute; top:5px; right:10px; color:#333; text-decoration:none;}
+.faq ul{margin:0;padding:0;list-style:none}
+.faq .q{margin:0;border-top:1px solid #ddd;}
+.faq p.a{background:#efefef;border-top: 1px dotted #fff}
+.faq .qlast{border-bottom: 1px solid #ddd}
+.faq .q a.trigger{display:block;padding:10px 15px;background:#bce1ff;color:#333;text-align:left;text-decoration:none ;}
+.faq .hide .q a.trigger{font-weight:normal;background:none}
+.faq .q a.trigger:hover,
+.faq .q a.trigger:active,
+.faq .q a.trigger:focus{background:#bce1ff;color:#333}
+
+.faq .a{margin:0;padding:10px 15px;line-height:1.5;  display:none}
+
+.qna{width:100%; margin-top: 60px;font-size:12px; }
+input{border: 1px solid #ddd;width: 180px;height: 20px}
+
+.qnaform{margin-top: 20px;}
+.qna .qnaform table{text-align: left;margin: 0 auto;border-collapse:collapse;}
+.qna .qnaform th{width:20%; text-align: left; padding: 15px;border: 1px solid #ccc}
+.qna .qnaform td{width:80%; padding: 15px;border: 1px solid #ccc}
+.qna .qnaform td.text{padding: 0;}
+.qna .qnaform table caption{position: absolute; visibility: hidden; font-size: 0;}
+.qna textarea{width: 99%; height: 150px;border:1px solid #ddd; resize:none;}
+
+.qna .qnaform .qnainfo{padding: 0;}
+.qna .qnaform .qnainfo td{padding: 0;}
+.qna .qnaform .qnainfo p{padding: 20px; background: #ddd}
+.qna .qnaform .qnainfo .check{text-align: center; margin: 15px 0}
+#check1{width:16px;height: 16px;vertical-align: text-top}
+.check label{vertical-align: 2px}
+
+.btn1{width:118px; height:30px;font-weight:bold; border:none; cursor:pointer;background:#32b332; color:#fff;}
+.btn2{width:118px; height:30px; font-weight:bold; cursor:pointer;border:1px solid #32b332; background:#fff; color:#666;}

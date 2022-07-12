@@ -1,0 +1,43 @@
+/* CSS Document */
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub5_column_hover.png)}
+/*content*/
+/* titleArea start */
+.titleArea h2{background:url(../images/content1/column.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:30px; margin-top:60px; margin-left: 25px;}
+.titleArea{background:url(../common/images/sub5_titleback.jpg) no-repeat; height:115px;}
+/* titleArea end */
+
+/* content start */
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+.contentArea{margin:40px 0;padding:15px; overflow: hidden}
+
+.column{padding:0 15px;}
+.column li{padding: 5px 5px 5px 110px; height:90px; margin-bottom:15px;}
+.column li h4{font-weight:bold; font-size:14px; margin:10px 0}
+.column li h4 a:hover{color:#999}
+
+
+/* column IR */
+.column .columncon1{background:url(../images/content1/columnimg01.jpg) no-repeat;}
+.column .columncon2{background:url(../images/content1/columnimg02.jpg) no-repeat;}
+.column .columncon3{background:url(../images/content1/columnimg03.jpg) no-repeat;}
+.column .columncon4{background:url(../images/content1/columnimg04.jpg) no-repeat;}
+.column .columncon5{background:url(../images/content1/columnimg05.jpg) no-repeat;}
+.column .columncon6{background:url(../images/content1/columnimg06.jpg) no-repeat;}
+.column .columncon7{background:url(../images/content1/columnimg07.jpg) no-repeat;}
+.column .columncon8{background:url(../images/content1/columnimg08.jpg) no-repeat;}
+/* column IR end */
+
+
+/* pagebtn start */
+.pagebtn {overflow:hidden; text-align:center; border-top:2px solid #666; border-bottom:2px solid #666; padding:5px 0;margin-bottom:15px}
+.pagebtn span{margin-right:5px;}
+.pagebtn span a{padding:0 5px}
+.pagebtn span a:hover{color:#3264c8; font-weight:bold}
+.pagebtn span .selectpage{color:#3264c8; font-weight:bold}
+.pagebtn span .pagelist:hover{color:#999}
+.listsearch{overflow:hidden;}
+.listsearch form{text-align:center; }
+.searchHidden{display:none;}

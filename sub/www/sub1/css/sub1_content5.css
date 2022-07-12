@@ -1,0 +1,42 @@
+/* CSS Document */
+
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub1map_hover.png)}
+/*content*/
+.titleArea h2{background:url(../images/content5/map.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:28px; margin:60px 0 0 20px}
+.titleArea{background:url(../common/images/sub1_titleback.jpg) no-repeat; height:115px;}
+
+
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+.contentArea{overflow: hidden; margin: 40px 0;padding: 0 15px;}
+
+#map_canvas{width:745px; height:350px; border:1px solid #ccc}
+
+.location{margin: 40px 0}
+.location li{overflow: hidden; margin-top: 10px;}
+.location dt{display: block; float: left;width:60px;font-size: 14px; font-weight: bold;color:#3366cc}
+.location dd{float: left; margin-left: 10px}
+
+
+.traffic{border-top: 1px solid #ccc; padding-top: 40px; overflow: hidden}
+.traffic dt{width:120px; height: 20px; font-size: 14px; font-weight: bold; color:#fff; text-align: center;
+	background: #333; padding:5px;margin-bottom: 20px}
+/*bus*/
+.traffic .bus dd{padding-left: 40px; margin-bottom: 10px;}
+.traffic .bus{float: left; width: 449px; padding-right: 15px;border-right: 1px dotted #ccc;}
+.traffic .bus .bus1{background: url(../images/content5/bus01.jpg) no-repeat 0 center;}
+.traffic .bus .bus2{background: url(../images/content5/bus02.jpg) no-repeat 0 2px;}
+.traffic .bus .bus3{background: url(../images/content5/bus03.jpg) no-repeat 0 center;}
+.traffic .bus .bus4{background: url(../images/content5/bus04.jpg) no-repeat 0 center;}
+.traffic .bus .bus5{background: url(../images/content5/bus05.jpg) no-repeat 0 center;}
+.traffic .bus .bus6{background: url(../images/content5/bus06.jpg) no-repeat 0 center;}
+.traffic .bus .bus7{background: url(../images/content5/bus07.jpg) no-repeat 0 center;}
+
+/*subway*/
+.traffic .subway{float: left; width: 192px; padding-left:15px;}
+.traffic .subway dd{padding-left: 40px; margin-bottom: 10px;}
+.traffic .subway .subway1{background: url(../images/content5/subway01.jpg) no-repeat 0 center;}
+.traffic .subway .subway2{background: url(../images/content5/subway02.jpg) no-repeat 0 center;}

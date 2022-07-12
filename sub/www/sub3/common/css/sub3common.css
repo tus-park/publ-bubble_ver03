@@ -1,0 +1,18 @@
+/* CSS Document */
+
+/* 서브페이지 공통영역-left  */
+
+.leftNav h3{background: url(../images/sub3_foundationNews.jpg) no-repeat;height: 150px;text-indent: -99999px;overflow: hidden}
+.leftNav .sub_menu{border: 1px solid #ccc;}
+.leftNav .sub_menu li{border-bottom:1px solid #ccc;}
+.leftNav .sub_menu .sub_menu3{border-bottom:none}
+.leftNav .sub_menu li a{display: block; height: 49px; text-indent:-99999px;overflow: hidden}
+
+.leftNav .sub_menu .sub_menu1 a{background: url(../images/sub3Info.png)}
+.leftNav .sub_menu .sub_menu2 a{background: url(../images/sub3News.png)}
+.leftNav .sub_menu .sub_menu3 a{background: url(../images/sub3Activity.png)}
+
+
+.leftNav .sub_menu .sub_menu1 a:hover{background: url(../images/sub3Info_hover.png)}
+.leftNav .sub_menu .sub_menu2 a:hover{background: url(../images/sub3News_hover.png)}
+.leftNav .sub_menu .sub_menu3 a:hover{background: url(../images/sub3Activity_hover.png)}

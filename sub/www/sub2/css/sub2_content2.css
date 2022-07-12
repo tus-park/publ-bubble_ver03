@@ -1,0 +1,81 @@
+/* CSS Document */
+
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub2education_hover.png)}
+/*content*/
+.titleArea h2{background:url(../images/content2/education.jpg) no-repeat; text-indent:-99999px; overflow:hidden;
+	height:29px; margin:60px 0 0 15px}
+.titleArea{background:url(../common/images/sub2_titleback.jpg) no-repeat; height:115px;}
+
+
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+.contentArea{margin-top:40px;padding:15px; overflow: hidden}
+/* tabs start */
+.tabs {position:relative;overflow: hidden}
+.tabs a.tab {display:block;width:130px; height:32px;
+        overflow:hidden; position:absolute;text-indent: -99999px}
+
+.tabs a.tab1{background:url(../images/content2/tab1.png)no-repeat;left:180px; top:0}
+.tabs a.tab2{background:url(../images/content2/tab2.png)no-repeat;left:310px; top:0}
+.tabs a.tab3{background:url(../images/content2/tab3.png)no-repeat;left:440px; top:0}
+
+.tabs .contlist {display:none;margin-top:30px; padding:50px 0 0;}
+/* tabs start end*/
+
+/* tab_buttons */
+.contentArea .tabs .tabtit{float:left;}
+/*tab_buttons*/
+
+/* teb content start */
+/* title info style start */
+.contentArea .happy_info{width:745px;height:300px;background: url(../images/content2/s2_2_h4bg01.png);overflow: hidden}
+.contentArea .familly_info{width:745px;height:300px;background: url(../images/content2/s2_2_h4bg02.png);overflow: hidden}
+.contentArea .personal_info{width:745px;height:300px;background: url(../images/content2/s2_2_h4bg03.png);overflow: hidden}
+.contentArea .leader_info{width:745px;height:300px;background: url(../images/content2/s2_2_h4bg04.png);overflow: hidden}
+.contentArea .reporter_info{width:745px;height:300px;background: url(../images/content2/s2_2_h4bg05.png);overflow: hidden}
+.contentArea .teacher_info{width:745px;height:300px;background: url(../images/content2/s2_2_h4bg06.png);overflow: hidden}
+.contentArea .school_info{width:745px;height:300px;background: url(../images/content2/s2_2_h4bg07.png);overflow: hidden}
+
+.contentArea h3{margin:30px 30px 20px 25px;font-size: 30px; font-weight: bold;color:#fff;}
+.contentArea h3 span{display: block;margin-left: 2px;font-size: 20px;font-weight: bold; color:#bce1ff;}
+.contentArea .contlist p.infocon{line-height:1.5em;width: 415px;margin-left:25px;padding-top: 25px;font-weight: bold; color:#fff;
+background: url(../images/content2/line.png) no-repeat}
+
+.contentArea .rinfo{text-align: right}
+.contentArea .rinfo p.infocon{float: right; background: url(../images/content2/line.png) no-repeat top right;margin-right:25px;}
+/* title info style end */
+
+.contentArea li ul li span{color:#666}
+h4{font-size: 16px; font-weight: bold; color:#32b332;margin-bottom: 15px;}
+
+.contentArea .educontent{overflow:hidden;}
+.contentArea .educontent .bli_left{float:left; width:350px;}
+.contentArea .educontent li ul li{margin-bottom:15px;padding-left:10px}
+.contentArea .educontent .bli_right{float:left;width:350px; margin-left: 15px;}
+.tab_con{margin-bottom:60px;overflow: hidden}
+.tablist{margin-top: 30px; padding:0 15px}
+
+/* tab1 con2 */
+.educontent .tab_con .tab1_2_Article2_01{float: left;background: url(../images/content2/family_article02_back1.png) no-repeat right bottom #eee; width:30.33%; height:60px; font-size: 11px;
+padding: 10px 5px; border:1px solid #999; margin-bottom:15px; }
+.educontent .tab_con .tab1_2_Article2_02{float: left;background: url(../images/content2/family_article02_back2.png) no-repeat center bottom #eee; width:30.33%;; height:60px;font-size: 11px;
+padding: 10px 5px; margin-left: 1%; border:1px solid #999}
+.educontent .tab_con .tab1_2_Article2_03{float: left;background: url(../images/content2/family_article02_back3.png) no-repeat left bottom #eee; width:30.33%; height:60px;font-size: 11px;
+padding: 10px 5px; margin-left: 1%;border:1px solid #999}
+.educontent .tab_con .tab1_2_Article2_04{clear:both; font-size: 18px; font-weight: bold; color:#fff; width:auto; padding: 10px 5px; text-align:center;
+background:#3264c8;}
+/* tab2 con1 */
+.reporter_actli dl{overflow: hidden}
+.reporter_actli dt{float: left; width:120px; height: 21px; padding:2px 0;background: #54bac8;text-align: center; color: #fff}
+.reporter_actli dd{padding-left: 130px}
+
+
+/* teb3 edu con */
+.educontent .tab_con .tab3_list{margin: 20px auto; background: #eee;padding:20px;overflow: hidden}
+.educontent .tab_con .tab3_list li{padding-left:0}
+.educontent .tab_con .tab3_list li.a2_last{margin-bottom: 0}
+.educontent .tab_con .tab3_list .arti2_left{float: left;width:325px;list-style:disc inside}
+.educontent .tab_con .tab3_list .arti2_right{float: left;width:325px;margin-left: 15px;list-style:disc inside}
+/* tab3 edu con end */

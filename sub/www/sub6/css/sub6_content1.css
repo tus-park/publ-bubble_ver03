@@ -1,0 +1,46 @@
+/* CSS Document */
+
+.container{overflow: hidden; width: 1000px; margin: 0 auto;}
+.leftNav{width:200px;float: left; margin-top:20px;}
+/*leftnav select*/
+.leftNav .sub_menu li a.current{background: url(../common/images/sub6online_hover.png)}
+/*content*/
+.titleArea h2{background:url(../images/content1/online.jpg) no-repeat; text-indent:-99999px; overflow:hidden; height:28px; margin:60px 0 0 20px}
+.titleArea{background:url(../common/images/sub6_titleback.jpg) no-repeat; height:115px;}
+
+
+#content{width: 775px;margin: 0 0 0 25px;float: left;margin-top:20px;}
+.contentArea{margin-top: 40px;padding: 0 15px;}
+
+#form1{width:100%;}
+#form1 .onlineinfo{background: url(../images/content1/online_back.jpg)no-repeat;height:80px;margin:0 20px;padding-left:100px;}
+#form1 table{width:100%; margin-top: 30px; font-family:Verdana, Geneva, sans-serif;font-size:12px; line-height:135%;
+     border-collapse:collapse; color:#333;}
+#form1 caption{position: absolute; visibility: hidden; font-size: 0;}
+#form1 th{width:20%; text-align: left; padding: 15px;border: 1px solid #ccc}
+#form1 td{width:80%; padding: 15px;border: 1px solid #ccc}
+ #file1{display: block; margin: 5px 0;}
+ h4{font-weight: bold; margin-bottom: 10px}
+.requestinfo{height:170px;padding: 0;}
+#form1 .requestinfo td{padding: 0;}
+.requestinfo dl{padding: 20px; background: #ddd}
+.requestinfo dt{font-weight: bold; margin-bottom: 10px}
+.requestinfo .check{ text-align: center; margin-top: 15px}
+.requestinfo p{color:#999; text-align: center;margin-bottom: 15px}
+#form1 input{border: 1px solid #ddd;width: 180px;height: 20px}
+#file1{border: none;width:auto;}
+#form1 #check1{width:16px;height: 16px;vertical-align: text-top}
+#form1 .check label{vertical-align: 2px}
+
+#form1 .btn1{width:118px; height:30px;font-weight:bold; border:none; cursor:pointer;background:#32b332; color:#fff;}
+#form1 .btn2{width:118px; height:30px; font-weight:bold; cursor:pointer;border:1px solid #32b332; background:#fff; color:#666;}
+#form1 .btn3{width:118px; height:30px; font-weight:bold; cursor:pointer;border:1px solid #ccc; background:#eee; color:#666;}
+
+#form2{width:100%; margin: 40px 0 50px 0}
+#form2 table{border: 1px solid #ccc;border-collapse:collapse;width:100%; }
+#form2 caption{color:#3264C8; font-size: 20px; font-weight: bold; margin-bottom: 20px;text-align: left}
+#form2 th{color:#666;width:25%; background: #eee;font-size: 14px;border-bottom: 1px dotted #ccc;padding: 10px;}
+#form2 td{padding-left:20px; width:60%;border-bottom: 1px dotted #ccc;padding: 5px 10px;}
+
+#Download{background:url(../images/content1/downicon.jpg)no-repeat 10px center #ddd; padding: 3px 10px 3px 35px; height:25px;
+  border:none; color:#54bac8;font-size: 11px}

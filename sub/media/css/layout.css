@@ -1,0 +1,273 @@
+﻿/* 와이드 pc  */
+body{ background:#333;}
+#wrap{margin:0 auto}
+h1 .logo{display:block;
+width:181px; height:150px;
+position:absolute; top:0; left:10px; z-index: 3}
+h2.hidden{display: none;}
+
+header{background: url(../images/headback.png) repeat-x 0 -1px}
+.headinner{width:1200px;margin: 0 auto; position:relative}
+div.topMenu{overflow:hidden; position: absolute; top:0; right:10px;display: block}
+.topMenu li{float: left; margin: 10px;}
+.topMenu li a{color:#fff}
+.topbtn{display: none}
+
+.nav{background:#333;}
+.nav .menulist1{border-top:2px solid #fff;border-bottom:2px solid #fff;overflow:hidden; margin-top: 31px;
+padding-left:210px;height:30px;}
+.nav .menulist2{overflow:hidden;padding-left:210px;height:30px;margin: 10px 0;}
+.nav .menulist1 li{float:left; margin-right:40px; margin-top:7px;}
+.nav .menulist1 li a{font-weight:bold; color: #fff; font-size:20px; }
+.nav .menulist2 li{float:left; margin-right:30px; margin-top:5px;}
+.nav .menulist2 li a{font-weight:normal; color: #fff; font-size:18px; }
+/* header end */
+.contentarea{margin:0 auto; width:1200px; position: relative}
+article{float:left; margin-right:10px;overflow: hidden}
+.visual{ position:relative;width:100%;overflow:hidden; margin-bottom: 40px}
+
+/* visual end*/
+
+article .videos .videosTit{width:100%; height:48px; border-bottom: 2px solid #ca9e4d; background:#fff;
+position:relative;overflow: hidden}
+article .videos .videosTit h3{display:inline;float:left;margin-top: 5px;margin-left: 15px;font-size:35px; color:#ca9e4d; font-weight: bold;}
+article .videos .videosTit p{display:inline; float:right; margin-right:50px; margin-top:25px}
+#youtubebtn{background:url(../images/youtubebtn.png) no-repeat; width:40px; height:29px;
+ text-indent:-9999px; overflow:hidden; position:absolute; bottom:5px; right:5px; cursor:pointer}
+.videosCon{margin:10px 0 40px 0; }
+.videosCon ul{overflow:hidden}
+.videosCon li{float:left; width:32%;position: relative;}
+.videosCon .v_center{margin:0 2%}
+.videosCon li p{background:rgba(0,0,0,.8); color:#fff; width: 96%; height:50px; padding:2%;position:absolute; bottom:0}
+/* videos end */
+
+article .featured .featuredTit{width:100%; height:48px; border-bottom: 2px solid #ca9e4d; background:#fff;
+position:relative;overflow: hidden}
+article .featured .featuredTit h3{display:inline;float:left;margin-top: 5px;margin-left: 15px;font-size:35px; color:#ca9e4d;font-weight: bold; display: inline}
+article .featured .featuredTit p{display:inline; float:right; margin-right:10px; margin-top:25px}
+.featuredCon {margin:10px 0 40px 0;}
+.featuredCon ul{overflow:hidden}
+.featuredCon li{float:left; width:32%;position: relative;}
+.featuredCon .f_center{margin:0 2%}
+.featuredCon li dl{background:rgba(255,255,255,.8); color:#333; width: 96%; height:90px; padding:2%;position:absolute; bottom:20px;}
+.featuredCon li dt{font-weight: bold}
+.featuredCon li dt span{display:block; font-weight:normal; color:#666}
+
+aside{width:266px; height:1327px; position:absolute;top:0;right:0; padding:0 15px;}
+/*sidecon01*/
+.sidecon01{width:240px; height:385px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0e0e+0,999999+100 */
+background: rgb(14,14,14); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(14,14,14,1) 0%, rgba(153,153,153,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(14,14,14,1) 0%,rgba(153,153,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(14,14,14,1) 0%,rgba(153,153,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#999999',GradientType=0 ); /* IE6-9 */
+color:#fff; padding:15px;}
+.sidecon01 h4{font-weight: bold; font-size: 22px;}
+.sidecon01 .side01info{background:rgba(200,200,200,.8); margin:15px 0 5px 0; padding: 5px; color:#333}
+.sidecon01 .side01info2{font-size: 11px}
+.sidecon01 form{margin:30px 0;}
+.sidecon01 form .facebooklabel{display: block;text-align: center;}
+#email1{width:100%; height:25px;}
+#signup1{background:#ca9e4d; margin:5px auto ;display: block;cursor:pointer;width:100px;height:25px; color:#fff; font-weight: bold;}
+#Signfacebook{background:url(../images/sign_facebook.png) no-repeat #0054a6; height:25px;margin: 0 auto;display: block;
+width:200px;height:25px; color:#fff; font-weight: bold; padding-left:25px;cursor:pointer}
+/*sidecon01 end*/
+/*sidecon02*/
+.sidecon02{width:240px; height:385px; background:url(../images/side_back02.png) no-repeat;color:#fff;margin-top:15px;padding:15px;}
+.sidecon02 h4{font-weight: bold; font-size: 24px;}
+.sidecon02 img{display: block;margin: 15px auto;}
+#join{background:#ca9e4d; margin:5px auto ;display: block;cursor:pointer;width:100px;height:25px; color:#fff; font-weight: bold;}
+/*sidecon02 end*/
+/*sidecon03*/
+.sidecon03{width:240px; height:385px; background:url(../images/side_back03.png) no-repeat; color:#fff;margin-top:10px;padding:15px;}
+.sidecon03 h4{font-weight: bold; font-size: 22px; color: #333}
+.sidecon03 label{font-weight: bold}
+.sidecon03 .side03info{background:rgba(200,200,200,.8); margin:10px 0 5px 0; padding: 5px; color:#333; font-weight: bold}
+.sidecon03 .side03info2{font-size: 11px; color:#000; font-weight: bold;background:rgba(255,185,110,.6)}
+.sidecon03 form{margin:25px 0;}
+.sidecon03 form .facebooklabe2{display: block;text-align: center;}
+#email2{width:100%; height:25px;}
+#signup{background:#ca9e4d; margin:5px auto ;display: block;cursor:pointer;width:100px;height:25px; color:#fff; font-weight: bold;}
+#Signfacebook{background:url(../images/sign_facebook.png) no-repeat #0054a6; height:25px;margin: 0 auto;display: block;
+width:230px;height:25px; color:#fff; font-weight: bold; padding-left:25px;cursor:pointer}
+/*sidecon03 end*/
+footer{clear:both; background:#ca9e4d;padding: 15px 0}
+.footinner{width:1200px;margin: 0 auto; overflow: hidden}
+.footinner p{color:#666; width:50%;float: left}
+.footinner .footlink{float: left;margin-left: 5%;width:45%}
+.footinner ul.sitemap{width:100%; overflow: hidden;}
+.footinner .sitemap li{width:21%; height:auto; float: left;font-weight: bold;margin: 0 2%;}
+.footinner .sitemap li a:hover{color:#666}
+.snslink{float:left; width:95%;margin: 15px 0; padding:10px;border: 1px solid #ccc;background: #bf9c5f}
+.snslink ul{overflow: hidden}
+.snslink li{width:21%; height:33px; float: left; margin: 0 2%}
+.snslink a{display: block; width:40px;}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+
+  #wrap{margin:0 auto;width:100%}
+  .headinner{width: 100%}
+
+  .contentarea{width:100%;position: relative;}
+  article{width:100%;float: left;margin-right:0}
+  article .content{margin-right:295px;overflow:hidden}
+  .nav .menulist1 li a{font-weight:bold; color: #fff; font-size:20px; }
+  .nav .menulist2 li a{font-weight:normal; color: #fff; font-size:18px;}
+  .dock{width:100%; height: 100px; background: #000;}
+  .dockbtn{margin:0 auto; width:630px; padding:10px 0}
+  .dock span.mbutton, .ps{ margin-right:10px; cursor:pointer;
+      display:block; float:left; width:80px; height: 80px}
+
+  .videosCon{margin:10px 2% 40px 2%; }
+  article .featured .featuredTit p{display:inline; float:right; width:40%;margin-right:10px; margin-top:10px;
+  text-align: right}
+  .featuredCon {margin:10px 2% 40px 2%;}
+
+     footer{width:96%; padding:15px 2%}
+    .footinner{width:100%;margin: 0 auto; overflow: hidden}
+    .footinner p{color:#666; width:45%;float: left}
+    .footinner .sitemap li{width:29%}
+    .snslink li{width:20%; height:33px; float: left;}
+  }
+
+/* 테블릿 */
+@media screen and (max-width:1172px) {
+  #wrap{margin:0 auto;width:100%}
+  .headinner{width: 100%}
+  h1 .logo{display:block;
+  width:161px; height:133px;
+  position:absolute; top:0; left:10px; z-index: 3}
+  .contentarea{width:100%;position: relative;margin-right: 0}
+  article{width:100%;float: left;margin-right: 0}
+  article .content{margin-right:0;overflow:hidden}
+  .nav{margin-top:0}
+  .nav .topMenulist span{margin: 0 10px;}
+  .nav .menulist1{padding-left:190px;}
+  .nav .menulist2{padding-left:190px;margin:6px 0}
+  .nav .menulist1 li a{font-weight:bold; color: #fff; font-size:18px; }
+  .nav .menulist2 li a{font-weight:normal; color: #fff; font-size:14px; }
+    aside{width:100%; height:auto; background:#666;position:relative;
+    border:0;border-top:2px solid #ca9e4d; border-bottom:2px solid #ca9e4d;
+    padding:15px 0;overflow: hidden;margin-bottom:40px}
+  .sidecontent{margin:0; width:96%;overflow: hidden;padding: 2%}
+  .sidecon01{width:28.66%; height:430px;float: left; padding:2%; margin-right: 1%;margin: 0 1% 15px 0}
+  .sidecon02{width:28.66%; height:430px;float: left; padding:2%; margin-right: 1%;margin: 0 1% 15px 0;
+  background-size: cover;}
+  .sidecon03{width:28.66%; height:430px;float: left;padding:2%; margin-top: 0;background-size: cover;}
+
+
+  .info3{width:100%;float:left}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:874px) {
+  header{background:none;}
+  h1 .logo{display:block;
+  width:70px; height:85px;
+  position:absolute; top:0; left:10px;}
+
+  ul{list-style:none;}
+  div.topMenu{width:auto;position:relative;
+    background:none; right:0;
+  	 font-family:Arial, Helvetica, sans-serif;
+  	 font-size:12px;overflow: hidden;}
+  #nav .topMenu li{margin:0;}
+  #nav ul.topMenuUl{float: none;overflow: hidden}
+  #nav li.topMenulist{float:left; padding:10px 1%;}
+  #nav li.topMenulist a:hover{color:#999;}
+  #nav .topMenuUl li.m1{text-align: right;width: 50%;}
+  #nav .topMenuUl li.m2{text-align: left;width: 46%;}
+
+  a.btn{display:block; text-align: center; background:url(../images/menu.png)no-repeat center center;
+  width:30px; height: 25px; color:#fff; margin:0 auto;padding:17px;text-indent: -99999px;overflow:hidden}
+
+  #nav{ clear:both; width:100%; height:auto;display:none; position:absolute; left:0; top:59px; padding: 20px 0;
+  	     background:rgba(0,0,0, .8);z-index:3}
+  .nav .menulist1 li, .nav .menulist2 li{width:auto; margin:0; text-align:center}
+  #nav li{text-align:center; padding:10px 0; font-weight:bold;}
+  #nav .last{border-bottom:1px solid #FFF}
+  .visual img{width:98%; margin:0 1%}
+  .nav .menulist1{border:none;border-top:2px solid #ccc; border-bottom: 2px solid #ccc;
+  margin-top: 0; margin: 10px 0; padding-left:0; padding: 10px 0; height:auto;}
+  .nav .menulist2{overflow:hidden;
+  padding-left:0;height:auto;margin-top: 0px;}
+  .nav .menulist1 li{float: none;}
+  .nav .menulist2 li{float: none;}
+
+  .sidecontent{margin:0; width:96%;overflow: hidden;padding: 2%}
+  .sidecon01{width:45%; height:430px;float: left; margin-right: 2%}
+  .sidecon02{width:45%; height:430px;float: right; margin-right: 0}
+  .sidecon03{width:96%; height:250px; float: none; clear: both}
+  .info3{width:48%;float:left}
+  .sidecon03 form{width:48%;margin:0 2%;float:left}
+
+  .footinner ul.sitemap{width:100%; overflow: hidden}
+  .footinner ul.sitemap li{width:40%; float: left; margin:0 5%;font-weight: bold}
+  .footinner ul.sitemap li a:hover{color:#666}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+  article .videos .videosTit{height: auto;}
+  article .videos .videosTit p{display:block; width:100%;float:left; margin:0 0 0 15px;}
+  #youtubebtn{background:url(../images/youtubebtn.png) no-repeat; width:40px; height:29px;
+   text-indent:-9999px; overflow:hidden; position:absolute; top:10px; right:20px; cursor:pointer}
+  article .featured .featuredTit{height: auto;}
+  article .featured .featuredTit p{display:block; width:100%; float:left; margin:0 0 0 15px;text-align:left;}
+  .videosCon li{float:none; width:100%;position: relative;}
+  .videosCon li img{width:50%}
+  .videosCon li p{width: 46%; right:0; top:0;height: auto}
+  .featuredCon li{float:none; width:100%;position: relative;}
+  .featuredCon li img{width:50%;margin-left: 50%}
+  .featuredCon li dl{width: 46%; left:0; top:0; bottom:0;height: auto}
+  .videosCon .v_center{margin:15px 0}
+  .featuredCon .f_center{margin:15px 0}
+
+
+  .sidecon01{width:96%;height:auto; float:none;clear: both;
+  background-size: cover;
+  padding:2%;overflow: hidden}
+  .info1{width:48%;float:left}
+  .sidecon01 .side03info{width:98%}
+  .sidecon01 .side03info2{width:100%}
+  .sidecon01 form{width:48%;margin:0 2%;float:left}
+
+  .sidecon02{width:96%;height:auto; float:none;clear: both;
+  background-size: cover;
+  padding:2%;overflow: hidden; margin:15px 0}
+  .info2{width:48%;float:left}
+  .sidecon02 .side03info{width:98%;}
+  .sidecon02 .side03info2{width:100%}
+  .sidecon02 form{width:48%;margin:0 2%;float:left}
+  #join{background:#ca9e4d; margin:60px auto ;display: block;cursor:pointer;
+    width:70%;height:40px; color:#fff; font-weight: bold;}
+  #Signfacebook{width:100%;}
+  .sidecon03{background:url(../images/side_back03.png) no-repeat right center;background-size: cover;
+    color:#333;margin-top:0;}
+  .sidecon03 form {color:#333;}
+
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+
+  .info1{width:96%;float:left}
+  .sidecon01 form{width:96%;margin:0 2%;float:none}
+  .info2{width:96%;float:left}
+  .sidecon02 form{width:96%;margin:0 2%;float:none}
+  #join{margin:60px auto;display: block;}
+  .sidecon03{ height:auto; }
+  .info3{width:96%;float:left}
+  .sidecon03 form{width:96%;margin:10px 2%;float:none;color:#fff;}
+
+
+  .footinner p{color:#666; width:100%;float: none}
+  .footinner .footlink{width:100%;  float: none;margin-left: 0;}
+  .footinner ul.sitemap{ overflow: hidden;margin-top: 10px;}
+  .snslink{width:95%;}
+}
